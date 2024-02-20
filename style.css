@@ -179,8 +179,8 @@ section {
 
 .section__pic-container {
   display: flex;
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   margin: auto 0;
 }
 .about__pic-container {
@@ -425,6 +425,8 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  position: relative;
+  top: 100px;
 }
 
 .contact-info-upper-container {
@@ -442,7 +444,7 @@ article .icon {
 .contact__text__p1 {
   text-align: center;
   position: relative;
-  top: 300px;
+  top: 100px;
 }
 
 .contact-info-container {
@@ -474,6 +476,8 @@ footer {
 
 footer p {
   text-align: center;
+  position: relative;
+  top: 100px;
 }
 /* mediaqueries */
 @media screen and (max-width: 1400px) {

@@ -439,6 +439,11 @@ article .icon {
   position: relative;
   top: 20px;
 }
+.contact__text__p1 {
+  text-align: center;
+  position: relative;
+  top: 300px;
+}
 
 .contact-info-container {
   display: flex;
